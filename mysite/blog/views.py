@@ -8,3 +8,6 @@ def post_list2(request):
 
 def post_list3(request):
     return render(request, 'blog/post_list3.html', {})
+
+def gif(request):
+    return render(request, 'blog/gif.html', {})
